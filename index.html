@@ -264,6 +264,16 @@
             transform: translateY(-3px);
         }
 
+        .part-time {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 8px;
+            background: rgba(100, 255, 218, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
         footer {
             background: var(--surface-color);
             color: var(--text-secondary);
@@ -398,18 +408,22 @@
         <div class="container">
             <h2 class="section-title">Experience</h2>
             <div class="experience-item">
-                <h3>Research Assistant</h3>
+                <h3>Research Assistant <span class="part-time">(Part-time)</span></h3>
                 <div class="company">Fraunhofer IFF, Magdeburg, Germany</div>
+                <p><strong>Skills:</strong> <span style="color: var(--primary-color);">Deep Learning, Object Detection and Segmentation, PyTorch, OpenCV</span></p>
                 <p>Created custom datasets for screw head detection using CVAT and Segment Anything Model. Trained and evaluated deep learning models like Faster-RCNN and YOLO series of models.</p>
             </div>
             <div class="experience-item">
-                <h3>Research Assistant</h3>
+                <h3>Research Assistant <span class="part-time">(Part-time)</span></h3>
                 <div class="company">Fraunhofer IWM, Freiburg, Germany</div>
+                <p><strong>Skills:</strong> <span style="color: var(--primary-color);">Python, Docker, FastAPI, Flask</span></p>
                 <p>Developed API services using FastAPI and designed microservice APIs for data interoperability within Data Space Management System (DSMS).</p>
             </div>
             <div class="experience-item">
                 <h3>Software Engineer</h3>
                 <div class="company">Apisero, Bengaluru, India</div>
+                <p><strong>Skills:</strong> <span style="color: var(--primary-color);">API ,ETL , Dataweaves</span></p>
+
                 <p>Developed ETL solutions and integration services for enterprise clients, enabling data synchronization across multiple platforms.</p>
             </div>
         </div>
